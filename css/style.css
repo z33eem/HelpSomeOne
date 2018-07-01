@@ -1,0 +1,124 @@
+.show-edit-profile .name-profile-img
+{
+    flex-direction: row;
+    margin: 32px 0 16px;
+}
+.show-edit-profile .profile-name-img
+{
+    margin: 32px 0 16px;
+}
+.show-edit-profile .profile-name-img .profile-img .edit-img
+{
+    display: inline-block;
+}
+.show-edit-profile .profile-name-img .profile-img .edit-img button
+{
+    background: none;
+    border: none;
+}
+.show-edit-profile .profile-name-img .profile-img .edit-img button img
+{
+    width: 40px;
+}
+.show-edit-profile .profile-name-img .profile-img .edit-name
+{
+    width: 70%;
+    display: inline-block;
+}
+.show-edit-profile .profile-name-img .profile-img .edit-name h1
+{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.show-edit-profile .profile-name-img .profile-img .edit-name span
+{
+    color: #3897f0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Edit_form{
+    background: #f5f5f5;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid #3897f0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px #999;
+    display: none;
+
+}
+
+.Edit_form .close{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Edit_form h4{
+    color: #3897f0;
+    text-align: center;
+    margin: 15px auto;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 30px
+}
+
+.Edit_form .innerEditForm{
+    overflow: hidden;
+    padding: 0 10px;
+}
+.Edit_form span{
+    color: #3897f0;
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.Edit_form input[type="text"]{
+    padding: 5px 10px;
+    width: 180px;
+    float: right;
+    border-radius: 8px;
+    font-size: 16px;
+    border:1px solid #ccc;
+}
+
+.Edit_form button{
+    display: block;
+    margin: 20px auto;
+    background-color: #2cbae2;
+    padding: 8px 50px;
+    border-radius: 10px;
+    color: #EEE;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    transition: .5s all ease-in-out;
+    
+}
+.Edit_form button:hover{
+    background: #e2752c;
+}
